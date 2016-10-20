@@ -1,0 +1,35 @@
+{
+  "name": "has-flag-ts",
+  "version": "0.1.0",
+  "description": "检查一个选项是否存在于命令行参数数组中，-- 以后的参数不进行检测",
+  "main": "./out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nice-body/has-flag-ts.git"
+  },
+  "keywords": [
+    "check",
+    "has",
+    "arg",
+    "args",
+    "argument",
+    "arguments",
+    "process",
+    "argv"
+  ],
+  "author": "nice-body <neone2011@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nice-body/has-flag-ts/issues"
+  },
+  "homepage": "https://github.com/nice-body/has-flag-ts#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.45",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
+}
