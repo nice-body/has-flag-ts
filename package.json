@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "检查一个选项是否存在于命令行参数数组中，-- 以后的参数不进行检测",
   "main": "./out/src/index.js",
-  "typings": "./out/src/index.d.ts",
+  "files": [
+    "./out"
+  ],
   "scripts": {
     "test": "ava ./out/test/*.js --tap",
     "compile": "tsc"
